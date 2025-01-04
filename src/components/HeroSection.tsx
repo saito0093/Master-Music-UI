@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { cn } from "@/utils/cn";
+
 import { Spotlight } from "@/components/ui/Spotlight";
 import { Button } from './ui/moving-border';
 

@@ -5,7 +5,7 @@ import React, { FormEvent, useState } from 'react';
 
 
 
-function page() {
+function Contact() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
@@ -56,4 +56,4 @@ function page() {
   )
 }
 
-export default page
+export default Contact
