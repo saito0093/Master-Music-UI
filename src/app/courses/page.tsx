@@ -8,10 +8,10 @@ import courseData from "@/data/music_courses.json";
 function Courses() {
   return (
     <div className="min-h-screen bg-black py-12 pt-36">
-      <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">All Courses {courseData.courses.length}</h1>
+      <h1 className="text-4xl md:text-7xl text-center font-sans font-bold mb-8 text-white">All Courses ({courseData.courses.length})</h1>
       <div className="flex flex-wrap justify-center">
          {courseData.courses.map((course : any) => (
-             <CardContainer key={course.id }  className="inter-var m-4 ">
+             <CardContainer key={course.id }  className="inter-var m-2 ">
              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                <CardItem
                  translateZ="50"
@@ -35,20 +35,20 @@ function Courses() {
                    alt={course.title}
                  />
                </CardItem>
-               <div className="flex justify-between items-center mt-20">
+               <div className="flex justify-between items-center mt-4">
                  <CardItem
                    translateZ={20}
                    as={Link}
                    href="https://twitter.com/mannupaaji"
                    target="__blank"
-                   className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                   className="px-4 py-2 rounded-xl  font-normal text-2xl dark:text-white"
                  >
                    Try now →
                  </CardItem>
                  <CardItem
                    translateZ={20}
                    as="button"
-                   className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                   className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xl font-bold"
                  >
                    Sign up
                  </CardItem>
