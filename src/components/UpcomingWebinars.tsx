@@ -63,7 +63,7 @@ function UpcomingWebinars() {
             {
               title: webinar.title,
               description: webinar.description,
-              link: '/web'
+              link: '/webinars/' + webinar.slug
             }
           ))}
           />
