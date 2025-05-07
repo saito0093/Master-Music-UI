@@ -30,7 +30,7 @@ Ensure you have the following installed:
 ### Steps to Run Locally
 ```bash
 # Clone the repository
-git clone https://github.com/andersn0002/master-music.git
+git clone https://github.com/yuyasano0096/Master-Music-UI.git
 
 # Navigate to the project folder
 cd music_nextjs
