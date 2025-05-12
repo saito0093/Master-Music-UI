@@ -18,32 +18,6 @@ Music Next.js is a sleek, modern, and responsive music streaming UI built using 
 
 ## 🖥️ Live Demo
 Check out the live version of music_nextjs here: [Live Site](https://music-nextjs-mu.vercel.app/)
-
----
-
-## 🛠️ Installation & Setup
-### Prerequisites
-Ensure you have the following installed:
-- **Node.js** (v16+ recommended)
-- **npm** or **yarn**
-
-### Steps to Run Locally
-```bash
-# Clone the repository
-git clone https://github.com/yuyasano0096/Master-Music-UI.git
-
-# Navigate to the project folder
-cd music_nextjs
-
-# Install dependencies
-yarn install  # or npm install
-
-# Run the development server
-yarn dev  # or npm run dev
-```
-The app should now be running at `http://localhost:3000`.
-
-
 ---
 
 ## 📂 Project Structure
